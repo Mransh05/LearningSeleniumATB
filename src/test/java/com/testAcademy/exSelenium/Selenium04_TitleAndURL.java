@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Selenium04 {
+public class Selenium04_TitleAndURL {
     @Test
     public void testVWO() throws InterruptedException {
         ChromeOptions chromeOptions = new ChromeOptions();

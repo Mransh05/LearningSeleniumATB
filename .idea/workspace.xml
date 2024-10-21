@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86d56c28-e4d5-425f-bfc5-62b9cbcb53fb" name="Changes" comment="New changes">
+    <list default="true" id="86d56c28-e4d5-425f-bfc5-62b9cbcb53fb" name="Changes" comment="Driver commands">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testAcademy/exSelenium/Selenium04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testAcademy/exSelenium/Selenium04_TitleAndURL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +27,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2nPoSj5qmJeCnCW4LBAObpb0Nfd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,14 +40,20 @@
   "keyToString": {
     "Application.Selenium01.executor": "Run",
     "Application.Selenium03.executor": "Run",
+    "Application.Selenium_Navigation.executor": "Run",
     "Application.katalon_demo.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Invetory.executor": "Run",
+    "TestNG.Invetory.invent.executor": "Run",
     "TestNG.Selenium02.executor": "Run",
     "TestNG.Selenium04.testVWO (1).executor": "Run",
     "TestNG.Selenium04.testVWO.executor": "Run",
+    "TestNG.Selenium05_GetSource.testVWO.executor": "Run",
+    "TestNG.Selenium_Locat.executor": "Run",
+    "TestNG.Selenium_Locat.login_Negative.executor": "Run",
     "TestNG.katalon_demo.TestKatlon.executor": "Run",
     "TestNG.katalon_demo.executor": "Run",
     "TestNG.katalon_demo.testKatlon.executor": "Run",
@@ -53,9 +61,14 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.katalon_demo.testKatlon">
-    <configuration name="katalon_demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.testAcademy.exSelenium.katalon_demo" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.testAcademy.exSelenium" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Selenium_Locat.login_Negative">
+    <configuration name="Selenium_Navigation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.testAcademy.exSelenium.Selenium_Navigation" />
       <module name="LearningSeleniumATB" />
       <extension name="coverage">
         <pattern>
@@ -67,7 +80,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium04.testVWO (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Invetory.invent" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearningSeleniumATB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testAcademy.Plus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testAcademy.Plus" />
+      <option name="MAIN_CLASS_NAME" value="com.testAcademy.Plus.Invetory" />
+      <option name="METHOD_NAME" value="invent" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selenium05_GetSource.testVWO" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearningSeleniumATB" />
       <extension name="coverage">
         <pattern>
@@ -76,7 +107,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.testAcademy.exSelenium" />
-      <option name="MAIN_CLASS_NAME" value="com.testAcademy.exSelenium.Selenium04" />
+      <option name="MAIN_CLASS_NAME" value="com.testAcademy.exSelenium.Selenium05_GetSource" />
       <option name="METHOD_NAME" value="testVWO" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -85,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="katalon_demo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium_Locat" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearningSeleniumATB" />
       <extension name="coverage">
         <pattern>
@@ -94,7 +125,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.testAcademy.exSelenium" />
-      <option name="MAIN_CLASS_NAME" value="com.testAcademy.exSelenium.katalon_demo" />
+      <option name="MAIN_CLASS_NAME" value="com.testAcademy.exSelenium.Selenium_Locat" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -102,7 +133,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="katalon_demo.TestKatlon" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium_Locat.login_Negative" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearningSeleniumATB" />
       <extension name="coverage">
         <pattern>
@@ -111,26 +142,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.testAcademy.exSelenium" />
-      <option name="MAIN_CLASS_NAME" value="com.testAcademy.exSelenium.katalon_demo" />
-      <option name="METHOD_NAME" value="TestKatlon" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="katalon_demo.testKatlon" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LearningSeleniumATB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.testAcademy.exSelenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.testAcademy.exSelenium" />
-      <option name="MAIN_CLASS_NAME" value="com.testAcademy.exSelenium.katalon_demo" />
-      <option name="METHOD_NAME" value="testKatlon" />
+      <option name="MAIN_CLASS_NAME" value="com.testAcademy.exSelenium.Selenium_Locat" />
+      <option name="METHOD_NAME" value="login_Negative" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -140,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.katalon_demo.testKatlon" />
-        <item itemvalue="TestNG.katalon_demo.TestKatlon" />
-        <item itemvalue="TestNG.katalon_demo" />
-        <item itemvalue="Application.katalon_demo" />
-        <item itemvalue="TestNG.Selenium04.testVWO (1)" />
+        <item itemvalue="TestNG.Selenium_Locat.login_Negative" />
+        <item itemvalue="TestNG.Selenium_Locat" />
+        <item itemvalue="Application.Selenium_Navigation" />
+        <item itemvalue="TestNG.Selenium05_GetSource.testVWO" />
+        <item itemvalue="TestNG.Invetory.invent" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728886993586</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Driver commands">
+      <option name="closed" value="true" />
+      <created>1728895950413</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728895950413</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +209,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="New changes" />
+    <MESSAGE value="Driver commands" />
+    <option name="LAST_COMMIT_MESSAGE" value="Driver commands" />
   </component>
 </project>
