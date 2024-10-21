@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/LearningSeleniumATB/src/test/java/com/testAcademy/exSelenium">
+        <classes>
+            <class name="com.testAcademy.exSelenium.Selenium02">
+                <methods>
+                    <include name="test01"/>
+                </methods>
+            </class>
+            <class name="com.testAcademy.exSelenium.Selenium04_TitleAndURL">
+                <methods>
+                    <include name="testVWO"/>
+                </methods>
+            </class>
+            <class name="com.testAcademy.exSelenium.Selenium05_GetSource">
+                <methods>
+                    <include name="Verify_PageSource"/>
+                </methods>
+            </class>
+            <class name="com.testAcademy.exSelenium.Selenium_Locat">
+                <methods>
+                    <include name="login_Negative"/>
+                </methods>
+            </class>
+            <class name="com.testAcademy.exSelenium.katalon_demo">
+                <methods>
+                    <include name="testKatlon"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
