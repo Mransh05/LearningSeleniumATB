@@ -15,8 +15,7 @@ public class Selenium04_TitleAndURL {
         driver.get("https://app.vwo.com/");
         Thread.sleep(1000);
         Assert.assertEquals(driver.getTitle(), "Login - VWO");
-        Assert.assertEquals(driver.getCurrentUrl(),"https://app.vwo.com/#/login");
+        Assert.assertEquals(driver.getCurrentUrl(), "https://app.vwo.com/#/login");
         driver.quit();
-
     }
 }
