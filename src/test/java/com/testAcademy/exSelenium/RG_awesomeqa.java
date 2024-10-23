@@ -1,5 +1,6 @@
 package com.testAcademy.exSelenium;
 
+import io.qameta.allure.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -7,6 +8,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class RG_awesomeqa {
+    @Description("Im checking new user is created or not")
+
     @Test
     public void registration() throws InterruptedException {
 

@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86d56c28-e4d5-425f-bfc5-62b9cbcb53fb" name="Changes" comment="Awesomeqa page register" />
+    <list default="true" id="86d56c28-e4d5-425f-bfc5-62b9cbcb53fb" name="Changes" comment="Awesomeqa page register">
+      <change afterPath="$PROJECT_DIR$/.idea/AllurePlugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testAcademy/exSelenium/RG_awesomeqa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testAcademy/exSelenium/RG_awesomeqa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testAcademy/exSelenium/Register_VWO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testAcademy/exSelenium/Register_VWO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testAcademy/exSelenium/Selenium_Navigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testAcademy/exSelenium/Selenium_Navigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testAcademy/exSelenium/katalon_demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testAcademy/exSelenium/katalon_demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +68,8 @@
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "io.qameta.allure.idea.settings.ProjectSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -68,7 +77,7 @@
       <recent name="com.testAcademy.exSelenium" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RG_awesomeqa.registration">
+  <component name="RunManager" selected="TestNG.D:/LearningSeleniumATB/testng.xml">
     <configuration name="Register_VWO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.testAcademy.exSelenium.Register_VWO" />
       <module name="LearningSeleniumATB" />
@@ -147,8 +156,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RG_awesomeqa.registration" />
         <item itemvalue="TestNG.D:/LearningSeleniumATB/testng.xml" />
+        <item itemvalue="TestNG.RG_awesomeqa.registration" />
         <item itemvalue="Application.Register_VWO" />
         <item itemvalue="TestNG.Selenium_Locat.login_Negative" />
         <item itemvalue="TestNG.Selenium_Locat" />
@@ -203,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729504540260</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Awesomeqa page register">
+      <option name="closed" value="true" />
+      <created>1729504839806</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729504839806</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -15,5 +15,7 @@ public class Selenium_Navigation {
         driver.navigate().back();
         driver.navigate().forward();
         driver.navigate().refresh();
+
+        driver.quit();
     }
 }
