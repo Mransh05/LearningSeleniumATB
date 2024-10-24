@@ -1,4 +1,5 @@
 Setup maven in window: https://phoenixnap.com/kb/install-maven-windows
+
 Setup Allure report window: https://allurereport.org/docs/install-for-windows/
 
 # Learning Selenium ATB7x
