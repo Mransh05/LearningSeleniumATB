@@ -14,6 +14,8 @@ import java.time.Duration;
 import java.util.NoSuchElementException;
 import java.util.function.Function;
 
+import static com.testAcademy.SeleniumWaits.WaitHelpers.checkVisibilityByFluentWait;
+
 public class FluentWaitPrg {
     @Description("Verify that with invalid email, pass, error message is shown on the app.vwo.com")
     @Test
@@ -49,6 +51,7 @@ public class FluentWaitPrg {
 
         WebElement buttonSubmit = driver.findElement(By.id("js-login-btn"));
         buttonSubmit.click();
+        /*
         FluentWait<WebDriver> wait = new FluentWait<>(driver)
                 .withTimeout(Duration.ofSeconds(10))
                 .pollingEvery(Duration.ofSeconds(2)).ignoring(NoSuchElementException.class);
@@ -57,6 +60,10 @@ public class FluentWaitPrg {
                 return driver.findElement(By.className("notification-box-description"));
             }
         });
+        */
+        WebElement error_message = checkVisibilityByFluentWait(driver, By.className("notification-box-description"));
+
+        Assert.assertEquals(error_message.getText(), "Your email, password, IP address or location did not match");
     }
 }
 

@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86d56c28-e4d5-425f-bfc5-62b9cbcb53fb" name="Changes" comment="Plus Physion">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testAcademy/SeleniumWaits/FluentWaitPrg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testAcademy/SeleniumWaits/WaitHelpers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testAcademy/SeleniumWaits/explicitlyWait.java" afterDir="false" />
+    <list default="true" id="86d56c28-e4d5-425f-bfc5-62b9cbcb53fb" name="Changes" comment="Selenium Waits">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testAcademy/SeleniumWaits/FluentWaitPrg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testAcademy/SeleniumWaits/FluentWaitPrg.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,52 +35,84 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Register_VWO.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Selenium01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Selenium03.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Selenium_Navigation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.katalon_demo.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.D:/LearningSeleniumATB/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Inventory.clickON_Inventory.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Inventory.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Invetory.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Invetory.invent.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.RG_awesomeqa.registration.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Selenium02.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Selenium04.testVWO (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Selenium04.testVWO.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Selenium05_GetSource.testVWO.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Selenium_Locat.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Selenium_Locat.login_Negative.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.katalon_demo.TestKatlon.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.katalon_demo.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.katalon_demo.testKatlon.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;io.qameta.allure.idea.settings.ProjectSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Programs.executor": "Run",
+    "Application.Register_VWO.executor": "Run",
+    "Application.Selenium01.executor": "Run",
+    "Application.Selenium03.executor": "Run",
+    "Application.Selenium_Navigation.executor": "Run",
+    "Application.javascript_alerts.executor": "Run",
+    "Application.katalon_demo.executor": "Run",
+    "Application.select_Dropdown.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.D:/LearningSeleniumATB/testng.xml.executor": "Run",
+    "TestNG.Inventory.clickON_Inventory.executor": "Run",
+    "TestNG.Inventory.executor": "Run",
+    "TestNG.Invetory.executor": "Run",
+    "TestNG.Invetory.invent.executor": "Run",
+    "TestNG.RG_awesomeqa.registration.executor": "Run",
+    "TestNG.Selenium02.executor": "Run",
+    "TestNG.Selenium04.testVWO (1).executor": "Run",
+    "TestNG.Selenium04.testVWO.executor": "Run",
+    "TestNG.Selenium05_GetSource.testVWO.executor": "Run",
+    "TestNG.Selenium_Locat.executor": "Run",
+    "TestNG.Selenium_Locat.login_Negative.executor": "Run",
+    "TestNG.katalon_demo.TestKatlon.executor": "Run",
+    "TestNG.katalon_demo.executor": "Run",
+    "TestNG.katalon_demo.testKatlon.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "io.qameta.allure.idea.settings.ProjectSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.testAcademy.exSelenium" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Inventory">
-    <configuration name="D:/LearningSeleniumATB/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.javascript_alerts">
+    <configuration name="Programs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.testAcademy.Programs.Programs" />
       <module name="LearningSeleniumATB" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testAcademy.Programs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="javascript_alerts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.testAcademy.javascript_alerts" />
+      <module name="LearningSeleniumATB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testAcademy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="select_Dropdown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.testAcademy.Programs.select_Dropdown" />
+      <module name="LearningSeleniumATB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testAcademy.Programs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,49 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Inventory.invent" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LearningSeleniumATB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.testAcademy.Plus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.testAcademy.Plus" />
-      <option name="MAIN_CLASS_NAME" value="com.testAcademy.Plus.Inventory" />
-      <option name="METHOD_NAME" value="invent" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RG_awesomeqa.registration" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LearningSeleniumATB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.testAcademy.exSelenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.testAcademy.exSelenium" />
-      <option name="MAIN_CLASS_NAME" value="com.testAcademy.exSelenium.RG_awesomeqa" />
-      <option name="METHOD_NAME" value="registration" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.javascript_alerts" />
+        <item itemvalue="Application.select_Dropdown" />
+        <item itemvalue="Application.Programs" />
         <item itemvalue="TestNG.Inventory" />
         <item itemvalue="TestNG.Inventory.clickON_Inventory" />
-        <item itemvalue="TestNG.Inventory.invent" />
-        <item itemvalue="TestNG.D:/LearningSeleniumATB/testng.xml" />
-        <item itemvalue="TestNG.RG_awesomeqa.registration" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729854227117</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Selenium Waits">
+      <option name="closed" value="true" />
+      <created>1730793659393</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730793659393</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,6 +263,18 @@
     <MESSAGE value="Awesomeqa page register" />
     <MESSAGE value="With Allure report" />
     <MESSAGE value="Plus Physion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Plus Physion" />
+    <MESSAGE value="Selenium Waits" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium Waits" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/testAcademy/Programs/Programs.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
