@@ -1,4 +1,4 @@
-package com.testAcademy;
+package com.testAcademy.Programs;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
