@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86d56c28-e4d5-425f-bfc5-62b9cbcb53fb" name="Changes" comment="Selenium Waits">
+    <list default="true" id="86d56c28-e4d5-425f-bfc5-62b9cbcb53fb" name="Changes" comment="JavaScript Alert">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testAcademy/SeleniumWaits/FluentWaitPrg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testAcademy/SeleniumWaits/FluentWaitPrg.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,8 @@
     "TestNG.Inventory.executor": "Run",
     "TestNG.Invetory.executor": "Run",
     "TestNG.Invetory.invent.executor": "Run",
+    "TestNG.Map_FindPlc (1).executor": "Run",
+    "TestNG.Map_FindPlc.executor": "Run",
     "TestNG.RG_awesomeqa.registration.executor": "Run",
     "TestNG.Selenium02.executor": "Run",
     "TestNG.Selenium04.testVWO (1).executor": "Run",
@@ -64,6 +65,10 @@
     "TestNG.katalon_demo.TestKatlon.executor": "Run",
     "TestNG.katalon_demo.executor": "Run",
     "TestNG.katalon_demo.testKatlon.executor": "Run",
+    "TestNG.svg_Pro01 (1).executor": "Run",
+    "TestNG.svg_Pro01 (2).executor": "Run",
+    "TestNG.svg_Pro01 (3).executor": "Run",
+    "TestNG.svg_Pro01.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
@@ -74,59 +79,21 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.testAcademy.SVGPrograms" />
       <recent name="com.testAcademy.exSelenium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.javascript_alerts">
-    <configuration name="Programs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.testAcademy.Programs.Programs" />
+  <component name="RunManager" selected="TestNG.Map_FindPlc">
+    <configuration name="Map_FindPlc (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearningSeleniumATB" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.testAcademy.Programs.*" />
+          <option name="PATTERN" value="com.testAcademy.SVGPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="javascript_alerts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.testAcademy.javascript_alerts" />
-      <module name="LearningSeleniumATB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.testAcademy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="select_Dropdown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.testAcademy.Programs.select_Dropdown" />
-      <module name="LearningSeleniumATB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.testAcademy.Programs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Inventory" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LearningSeleniumATB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.testAcademy.Plus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.testAcademy.Plus" />
-      <option name="MAIN_CLASS_NAME" value="com.testAcademy.Plus.Inventory" />
+      <option name="PACKAGE_NAME" value="com.testAcademy.SVGPrograms" />
+      <option name="MAIN_CLASS_NAME" value="com.testAcademy.SVGPrograms.Map_FindPlc" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -134,18 +101,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Inventory.clickON_Inventory" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Map_FindPlc" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearningSeleniumATB" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.testAcademy.Plus.*" />
+          <option name="PATTERN" value="com.testAcademy.SVGPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.testAcademy.Plus" />
-      <option name="MAIN_CLASS_NAME" value="com.testAcademy.Plus.Inventory" />
-      <option name="METHOD_NAME" value="clickON_Inventory" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="com.testAcademy.SVGPrograms" />
+      <option name="MAIN_CLASS_NAME" value="com.testAcademy.SVGPrograms.Map_FindPlc" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="svg_Pro01 (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearningSeleniumATB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testAcademy.SVGPrograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testAcademy.SVGPrograms" />
+      <option name="MAIN_CLASS_NAME" value="com.testAcademy.SVGPrograms.svg_Pro01" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="svg_Pro01 (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearningSeleniumATB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testAcademy.SVGPrograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testAcademy.SVGPrograms" />
+      <option name="MAIN_CLASS_NAME" value="com.testAcademy.SVGPrograms.svg_Pro01" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="svg_Pro01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearningSeleniumATB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testAcademy.SVGPrograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testAcademy.SVGPrograms" />
+      <option name="MAIN_CLASS_NAME" value="com.testAcademy.SVGPrograms.svg_Pro01" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -154,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.javascript_alerts" />
-        <item itemvalue="Application.select_Dropdown" />
-        <item itemvalue="Application.Programs" />
-        <item itemvalue="TestNG.Inventory" />
-        <item itemvalue="TestNG.Inventory.clickON_Inventory" />
+        <item itemvalue="TestNG.Map_FindPlc" />
+        <item itemvalue="TestNG.Map_FindPlc (1)" />
+        <item itemvalue="TestNG.svg_Pro01" />
+        <item itemvalue="TestNG.svg_Pro01 (3)" />
+        <item itemvalue="TestNG.svg_Pro01 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +259,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730793659393</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="JavaScript Alert">
+      <option name="closed" value="true" />
+      <created>1730799028133</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730799028133</updated>
+    </task>
+    <task id="LOCAL-00010" summary="JavaScript Alert">
+      <option name="closed" value="true" />
+      <created>1730799067643</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730799067643</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,7 +297,8 @@
     <MESSAGE value="With Allure report" />
     <MESSAGE value="Plus Physion" />
     <MESSAGE value="Selenium Waits" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium Waits" />
+    <MESSAGE value="JavaScript Alert" />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaScript Alert" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
